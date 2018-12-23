@@ -20,9 +20,9 @@ public class SumStrategyJava7 {
      */
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,2,3,4,5,6,7,8,9,10);
-        System.out.println(totalEvenValues(list));
-        System.out.println(totalOddValues(list));
-        System.out.println(total(list));
+        System.out.println("Total of all values: " + total(list));
+        System.out.println("Total of even values: " + totalEvenValues(list));
+        System.out.println("Total of odd values: " + totalOddValues(list));
     }
 
     /**
