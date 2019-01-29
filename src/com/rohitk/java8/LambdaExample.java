@@ -1,7 +1,5 @@
 package com.rohitk.java8;
 
-import java.util.Arrays;
-
 public class LambdaExample {
 
     static Greeting greet = (name) -> "Hi :" + name;
